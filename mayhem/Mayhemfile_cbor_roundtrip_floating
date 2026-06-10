@@ -1,0 +1,5 @@
+project: glaze
+target: cbor_roundtrip_floating
+cmds:
+  - cmd: /mayhem/cbor_roundtrip_floating
+    libfuzzer: true

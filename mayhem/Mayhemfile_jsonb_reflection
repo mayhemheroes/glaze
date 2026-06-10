@@ -1,0 +1,5 @@
+project: glaze
+target: jsonb_reflection
+cmds:
+  - cmd: /mayhem/jsonb_reflection
+    libfuzzer: true

@@ -1,0 +1,8 @@
+project: glaze
+target: json_roundtrip_floating
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/json_roundtrip_floating
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/json.dict

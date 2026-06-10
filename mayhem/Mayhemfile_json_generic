@@ -1,0 +1,8 @@
+project: glaze
+target: json_generic
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/json_generic
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/json.dict

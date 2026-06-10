@@ -1,0 +1,7 @@
+project: glaze
+target: csv_parsing
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/csv_parsing
+    libfuzzer: true

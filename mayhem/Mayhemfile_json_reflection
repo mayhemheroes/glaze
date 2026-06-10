@@ -1,0 +1,8 @@
+project: glaze
+target: json_reflection
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/json_reflection
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/json.dict

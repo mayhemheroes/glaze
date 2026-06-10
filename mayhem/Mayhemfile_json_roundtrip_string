@@ -1,0 +1,8 @@
+project: glaze
+target: json_roundtrip_string
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/json_roundtrip_string
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/json.dict

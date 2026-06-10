@@ -1,0 +1,8 @@
+project: glaze
+target: json_jmespath
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/json_jmespath
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/json.dict

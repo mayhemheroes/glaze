@@ -1,0 +1,7 @@
+project: glaze
+target: msgpack_roundtrip_string
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/msgpack_roundtrip_string
+    libfuzzer: true

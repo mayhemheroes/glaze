@@ -1,0 +1,7 @@
+project: glaze
+target: cbor_reflection
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/cbor_reflection
+    libfuzzer: true
